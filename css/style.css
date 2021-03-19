@@ -1,0 +1,110 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: "Mukta";
+    padding-top: 20px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.white {
+    color: white;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* HEADER */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.logo-container {
+    width: 10%;
+}
+
+.menu-container {
+    width: 80%;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+/* Main Menu */
+.main-menu li {
+    list-style-type: none;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #cc2f39;
+}
+
+.main-menu li:hover {
+    transform: scale(1.1);
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* MAIN */
+/* Jumbotron */
+.jumbotron {
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.glasgow,
+.london {
+    width: calc(( 100% / 2) - 4px);
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+}
+
+.glasgow {
+    background-image: url(../img/glasgow-station.jpg);
+}
+
+.london {
+    background-image: url(../img/london-station.jpg);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffcfc;
+}
+
+/* Ticket Box */
+.ticket-box {
+    background-color: #cc2f39;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.ticket-box span {
+    display: inline-block;
+    padding: 0 25px;
+}
