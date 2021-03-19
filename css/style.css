@@ -108,3 +108,28 @@ nav {
     display: inline-block;
     padding: 0 25px;
 }
+
+/* FOOTER */
+footer {
+    height: 60px;
+    background-color: #404040;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    margin-left: 20px;
+}
+
+.social li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.copy {
+    font-size: 10px;
+    margin-right: 20px;
+}
