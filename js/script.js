@@ -3,12 +3,12 @@
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
 // Chiedo all'utente il numero di chilometri che vuole percorrere
-var kmPercorsi = prompt ('Quanti km devi percorrere?');
+var kmPercorsi = prompt ('Your trip in km');
 kmPercorsi = parseInt (kmPercorsi);
 
 
 // Chiedo all'utente la sua età
-var laTuaEta = prompt ('Inserisci la tua età');
+var laTuaEta = prompt ('Your age');
 laTuaEta = parseInt (laTuaEta);
 
 

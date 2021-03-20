@@ -102,11 +102,36 @@ nav {
     margin-top: 5px;
     border-radius: 20px;
     padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .ticket-box span {
     display: inline-block;
     padding: 0 25px;
+}
+
+/* Book Now */
+.book-now {
+    width: 20%;
+    text-align: center;
+}
+
+.book-now:hover {
+    cursor: pointer;
+}
+
+.book-now-button {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.book-now-button:hover {
+    background-color: black;
+    color: white;
 }
 
 /* FOOTER */
